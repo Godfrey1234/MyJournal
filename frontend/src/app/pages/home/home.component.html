@@ -1,0 +1,118 @@
+<p>Multi form</p>
+<form class="multi multi-center">
+  
+    <div class="step1"  [hidden]="!(value === 0)">
+       
+    <label>Enter your Location </label><br>
+    <br><br>
+    <input type="text" width="50%" >
+    <br>
+    <button class="btn bg-blue" (click)="onNext()">Next</button>
+    </div>
+ 
+    <div class="step1"  [hidden]="!(value === 1)">
+    
+
+        <label>How many guest</label><br>
+        <br><br>
+        <input type="text" width="50%">
+        <br>
+        <button class="back" (click)="onPrev()">back</button>
+    <button class="btn" (click)="onNext()">Next</button>&nbsp;</div>
+
+    <div class="step1"  [hidden]="!(value === 2)">
+       
+        <label>would you like catering</label><br>
+        <br><br>
+
+        <label>
+          
+        </label>
+          
+        <br>
+        <button class="back" (click)="onPrev()">back</button>
+         <button class="btn" (click)="onNext()">Yes</button>&nbsp;
+         <button class="skip" (click)="onSkip()">Skip</button>&nbsp;
+    </div>
+
+    <div class="step1"  [hidden]="!(value === 3)">
+       
+        <label>Select Caterer</label><br>
+        <br><br>
+        <input type="text" width="50%">
+        <br>
+        <button class="back" (click)="onPrev()">back</button>
+         <button class="btn" (click)="onNext()">Next</button>&nbsp;
+    </div>
+
+    <div class="step1"  [hidden]="!(value === 4)">
+       
+        <label>would you like a Dj</label><br>
+        <br><br>
+
+        <label>
+          
+        </label>
+          
+        <br>
+        <button class="back" (click)="onPrev()">back</button>
+         <button class="btn" (click)="onNext()">Yes</button>&nbsp;
+         <button class="skip" (click)="onSkip()">Skip</button>&nbsp;
+    </div>
+   
+
+    <div class="step1"  [hidden]="!(value === 5)">
+       
+        <label>Select a DJ</label><br>
+        <br><br>
+        <input type="text" width="50%">
+        <br>
+        <button class="back" (click)="onPrev()">back</button>
+         <button class="btn" (click)="onNext()">Next</button>&nbsp;
+    </div>
+
+    <div class="step1"  [hidden]="!(value === 6)">
+       
+        <label>would you like a deco</label><br>
+        <br><br>
+
+        <label>
+          
+        </label>
+          
+        <br>
+        <button class="back" (click)="onPrev()">back</button>
+         <button class="btn" (click)="onNext()">Yes</button>&nbsp;
+         <button class="skip" (click)="onSkip()">Skip</button>&nbsp;
+    </div>
+    
+
+    <div class="step1"  [hidden]="!(value === 7)">
+       
+        <label>Select a deco</label><br>
+        <br><br>
+        <input type="text" width="50%">
+        <br>
+        <button class="back" (click)="onPrev()">back</button>
+         <button class="btn" (click)="onNext()">Next</button>&nbsp;
+    </div>
+
+
+    <div class="step1"  [hidden]="!(value === 8)">
+       
+        <label>This are your Bookings</label><br>
+        <br><br>
+        <input type="text" width="50%">
+        <br>
+        <button class="btn" (click)="onSubmit()">Book</button>
+        <button class="back" (click)="onPrev()">back</button>
+       
+    </div>
+
+
+  
+    
+</form>
+
+mxzmzxm
+
